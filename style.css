@@ -1,0 +1,91 @@
+#header {
+    background-color: #1d252a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    color: white;
+}
+
+#about {
+    width: 30%;
+    background-color: #1d252a;
+    padding: 10px;
+    border: 2px #ffffff solid;
+}
+ul {
+    list-style:none;
+}
+ul li::before {
+content: "";
+width: 0px;
+height: 0px;
+background-color: transparent;
+position: absolute;
+left: -15px;
+top: auto;
+margin-top: auto;
+border-width: 10px;
+border-style: solid;
+border-color: transparent transparent transparent #6797d9;
+
+}
+ul li {
+    position: relative;
+}
+
+#summary {
+    width: 30%;
+    background-color: #263037;
+    padding: 10px;
+    border: 2px #ffffff solid;
+}
+
+#contact {
+    width: 30%;
+    background-color: #2c3940;
+    padding: 10px;
+    border: 2px #ffffff solid;
+}
+#technologies {
+    width: 30%;
+    background-color:#2c3940;
+    padding: 10px;
+    margin: 10px 1px;
+    border: 2px #ffffff solid;
+}
+#certificates {
+    width: 30%;
+    background-color: #263037;
+    padding: 10px;
+    margin: 10px 1px;
+    border: 2px #ffffff solid;
+}
+#projects {
+    width: 30%;
+    background-color:#1d252a;
+    padding: 10px;
+    margin: 10px 1px;
+    border: 2px #ffffff solid;
+}
+
+#footer {
+    background-color: #1d252a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: -11px;
+}
+a {
+text-decoration: none;
+color:#6797d9;
+}
+a:hover {
+    color: blue;
+}
